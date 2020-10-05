@@ -1,6 +1,5 @@
 #+TITLE: Data Science
 
-* Data Science
 ** Goal
 The aim of this project is to focus on providing an experience of the fundamentals of data science: data wrangling.
 ** Issues
@@ -12,9 +11,13 @@ The aim of this project is to focus on providing an experience of the fundamenta
 2. Data Collection
    Collect data (using the previously created script) for these five kinds of assets:
    a. Nifty 50 (^NSEI)
+   
    b. Multi Commodity Exchange of India Limited (MCX.NS)
+   
    c. Ethereum INR (ETH-INR)
+   
    d. Dow Jones Industrial Average (^DJI)
+   
    e. S&P BSE SENSEX (^BSESN)
 
    Save each one of these datasets as an appropriately named CSV file.
