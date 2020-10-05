@@ -1,6 +1,6 @@
 #+TITLE: XBT Predictors
 
-* XBT Predictors
+
 ** Goal
 The goal here is a dive into Reinforcement Learning.
 ** Dataset
