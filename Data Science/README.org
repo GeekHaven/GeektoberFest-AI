@@ -26,6 +26,7 @@ The aim of this project is to focus on providing an experience of the fundamenta
    Write a script to take any arbitrary dataset with the format previously given, and return a chart showing the HLOC chart of the data.
 
 4. Predict
+   Use an LSTM to create a simple predictor.
   
 ** General Advice
 - Use Python as the programming language (if you /really/ want to use another one, ask us first).
