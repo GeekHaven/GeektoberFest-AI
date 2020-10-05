@@ -1,0 +1,25 @@
+#+TITLE: XBT Predictors
+
+* XBT Predictors
+** Goal
+The goal here is a dive into Reinforcement Learning.
+** Dataset
+The dataset you will be using is called [[https://www.kaggle.com/mczielinski/bitcoin-historical-data][Bitcoin Historical Data]], and is of 250 MB in size. It contains the entire historical trading data of Bitcoin, compiled from various exchanges.
+Each data-point represents 1 minute interval, and the entire dataset spans years.
+
+Each data point contains six important features: the timestamp, the opening price, the highest price, the lowest price, and the closing price - all for that specific time period, and volume traded in that time period. There's also VWAP- Volume Weighted Average Price, but this isn't that important.
+** Issues
+1. Clean the dataset, and prepare it for use with RL algorithms.
+   Specify the actions you have taken to prepare the dataset.
+  
+2. Implement a [[https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning][Deep Q Learning]] algorithm to trade XBT in the market, and make as much profit as possible.
+   Let's assume your environment is a contiguious sequence of the time series dataset provided.
+   Your RL agent will always start with 1% of volume of XBT traded in the starting state of the environment no matter what, and decides to buy, sell, or hold an arbitrary amount of XBT based on the input from the environment, which is, the time series sequence we just talked about.
+   Here, the environment is assumed to not be as "interactive", that is, it doesn't not react to your agent's actions. To ensure this is true, we have enforced the rule that the starting amount of XBT for the agent is 1% of the volume traded in the starting state of the environment, since in such a scenario, the agent would not cause massive changes to the market's functioning.
+
+3. Implement a [[https://towardsdatascience.com/proximal-policy-optimization-tutorial-part-1-actor-critic-method-d53f9afffbf6?source=user_profile---------5-----------------------][Proximal Policy Optimization algorithm]] to do the same thing as the previous issue.
+** General Advice
+- Use Python as the programming language (if you /really/ want to use another one, ask us first).
+- You can use whatever libraries you want.
+- Create a sub-folder named =./YOUR_ROLL_NO/= and add any and all code in that sub-folder.
+- Do not copy someone else's code.

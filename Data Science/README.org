@@ -1,0 +1,31 @@
+#+TITLE: Data Science
+
+* Data Science
+** Goal
+The aim of this project is to focus on providing an experience of the fundamentals of data science: data wrangling.
+** Issues
+1. Scripting
+   Write a script to retrieve intraday stock data - that is, the HLOC data for a duration of 7 days, where the time interval is one minute - for any given [[https://en.wikipedia.org/wiki/Ticker_symbol][stock ticker]].
+
+   Here's a list of features we expect in every data point /at minimum/: timestamp, high price, low price, opening price, closing price, volume.
+  
+2. Data Collection
+   Collect data (using the previously created script) for these five kinds of assets:
+   a. Nifty 50 (^NSEI)
+   b. Multi Commodity Exchange of India Limited (MCX.NS)
+   c. Ethereum INR (ETH-INR)
+   d. Dow Jones Industrial Average (^DJI)
+   e. S&P BSE SENSEX (^BSESN)
+
+   Save each one of these datasets as an appropriately named CSV file.
+
+3. Data Visualization
+   Write a script to take any arbitrary dataset with the format previously given, and return a chart showing the HLOC chart of the data.
+
+4. Predict
+  
+** General Advice
+- Use Python as the programming language (if you /really/ want to use another one, ask us first).
+- You can use whatever libraries you want.
+- Create a sub-folder named =./YOUR_ROLL_NO/= and add any and all code in that sub-folder.
+- Do not copy someone else's code.
