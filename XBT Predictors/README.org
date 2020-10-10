@@ -19,7 +19,7 @@ Each data point contains six important features: the timestamp, the opening pric
 
 3. Implement a [[https://towardsdatascience.com/proximal-policy-optimization-tutorial-part-1-actor-critic-method-d53f9afffbf6?source=user_profile---------5-----------------------][Proximal Policy Optimization algorithm]] to do the same thing as the previous issue.
 ** General Advice
-- Use Python as the programming language (if you /really/ want to use another one, ask us first).
+- Use Python as the programming language (if you /really/ want to use another one, ask us first). File extension should be '.py'.
 - You can use whatever libraries you want.
 - Create a sub-folder named =./YOUR_ROLL_NO/= and add any and all code in that sub-folder.
 - Do not copy someone else's code.

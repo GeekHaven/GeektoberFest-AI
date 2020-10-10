@@ -29,7 +29,7 @@ The aim of this project is to focus on providing an experience of the fundamenta
    Use an LSTM to create a simple predictor.
   
 ** General Advice
-- Use Python as the programming language (if you /really/ want to use another one, ask us first).
+- Use Python as the programming language (if you /really/ want to use another one, ask us first). File extension should be '.py'.
 - You can use whatever libraries you want.
 - Create a sub-folder named =./YOUR_ROLL_NO/= and add any and all code in that sub-folder.
 - Do not copy someone else's code.

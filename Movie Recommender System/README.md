@@ -9,7 +9,7 @@ The folder 'datasets' contain the Dataset for the Recommender System , 'links.cs
   
 ## General Advice
  
-1. Use Python as the programming language (if you really                                want to use another one, ask us first).
+1. Use Python as the programming language (if you really                                want to use another one, ask us first). File extension should be '.py'.
 2. You can use whatever libraries you want.
 3. Create a sub-folder named 'YOUR_ROLL_NO' in this directory     and add any and all code in that sub-folder.
 4. Do not copy someone else's code.
