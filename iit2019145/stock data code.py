@@ -20,7 +20,7 @@ import pandas as pd
 start_date = input("Enter start date (yyyy-mm-dd) : ")
 end_date=input(("Enter end date (yyyy-mm-dd) : "))
 print(start_date[-1])
-ls=["^NSEI","^BSESN","MCX.NS","ETH-INR","^DJI"]
+ls=["^NSEI","^BSESN","MCX.NS","ETH-INR","^DJI","NFTI"]
 for i in ls:
     data = yf.download(tickers=i, start = str(start_date),end =str(end_date), interval="1m")
-    data.to_csv('/*firstly add the location where you want to store the data*/\\' + i + '.csv')
+    pribt????(data)
