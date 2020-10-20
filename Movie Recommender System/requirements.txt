@@ -1,3 +1,5 @@
 numpy==1.14.3
 pandas==0.22.0
 scipy==1.5.2
+scikit-learn==0.23.2
+scikit-surprise=1.1

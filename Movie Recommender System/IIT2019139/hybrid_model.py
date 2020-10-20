@@ -20,15 +20,15 @@ warnings.filterwarnings('ignore')
 
 
 # While running on system, use these paths (uncomment these & comment the above ones)
-movies_df = pd.read_csv('../../datasets/movies.csv', sep=',',
+movies_df = pd.read_csv('../datasets/movies.csv', sep=',',
                         encoding='latin-1', usecols=
                         ['movieId','title','genres'])
 
-ratings_df = pd.read_csv('../../datasets/ratings.csv'
+ratings_df = pd.read_csv('../datasets/ratings.csv'
                          , sep=',', encoding='latin-1', usecols=
                          ['userId','movieId','rating'])
 
-tags_df = pd.read_csv('../../datasets/tags.csv')
+tags_df = pd.read_csv('../datasets/tags.csv')
 
 df_movies=movies_df
 
